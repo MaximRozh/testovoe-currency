@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/testovoe-currency/static/css/main.97579a42.css",
+    "main.js": "/testovoe-currency/static/js/main.39d3b0a8.js",
+    "static/js/787.fe9b0900.chunk.js": "/testovoe-currency/static/js/787.fe9b0900.chunk.js",
+    "static/media/hero.svg": "/testovoe-currency/static/media/hero.ad2f0c661f06dac4fea0dc39f0177acf.svg",
+    "static/media/Söhne-Leicht.otf": "/testovoe-currency/static/media/Söhne-Leicht.a9f9fb4ef1dda70636df.otf",
+    "static/media/Obviously-CondensedSemibold.otf": "/testovoe-currency/static/media/Obviously-CondensedSemibold.35408f993fb1af810955.otf",
+    "static/media/Label.svg": "/testovoe-currency/static/media/Label.3aac124f64e21ec01482955ef5799ed1.svg",
+    "index.html": "/testovoe-currency/index.html",
+    "main.97579a42.css.map": "/testovoe-currency/static/css/main.97579a42.css.map",
+    "main.39d3b0a8.js.map": "/testovoe-currency/static/js/main.39d3b0a8.js.map",
+    "787.fe9b0900.chunk.js.map": "/testovoe-currency/static/js/787.fe9b0900.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97579a42.css",
+    "static/js/main.39d3b0a8.js"
+  ]
+}
