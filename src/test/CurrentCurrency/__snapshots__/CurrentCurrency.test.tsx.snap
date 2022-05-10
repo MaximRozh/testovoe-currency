@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="nav-wrapper"
+    >
+      <div
+        class="nav-wrapper-container"
+      >
+        <nav
+          class="nav-bar"
+        >
+          <a
+            aria-current="page"
+            class="active"
+            href="#/"
+          >
+            <img
+              alt="Logo"
+              class="logo"
+              src="Label.svg"
+            />
+          </a>
+          <ul
+            class="nav-menu"
+          >
+            <li
+              class="nav-menu-item"
+            >
+              <a
+                aria-current="page"
+                class="active-link"
+                href="#/"
+              >
+                Currency converter
+              </a>
+            </li>
+            <li
+              class="nav-menu-item"
+            >
+              <a
+                class=""
+                href="#/current-currency"
+              >
+                Exchange rates
+              </a>
+            </li>
+          </ul>
+          <select />
+        </nav>
+      </div>
+    </div>
+    <div
+      class="container"
+    >
+      <div
+        class="currency-wrapper"
+      >
+        <div
+          class="foo"
+        >
+          <div
+            class="header-wrapper"
+          >
+             
+            <h2
+              class="convert-header"
+            >
+              EXCHANGE RATES
+            </h2>
+            <p
+              class="convert-text"
+            >
+              Fast, simplle, non-custodial Exchange Service. Check live foreign currency exchange rates
+            </p>
+          </div>
+          <div
+            class="currency-rates"
+          >
+            <div
+              class="currency-rates-header"
+            >
+              <span
+                class="rates-header-text"
+              >
+                Currency
+              </span>
+              <span
+                class="rates-header-text"
+              >
+                Amount
+              </span>
+            </div>
+            <ul
+              class="all-rates"
+            >
+              <li
+                class="rate-item"
+              >
+                <span
+                  class="rate-text"
+                >
+                  USD :
+                </span>
+                 
+                <span
+                  class="rate-text"
+                >
+                  29.255
+                </span>
+              </li>
+              <li
+                class="rate-item"
+              >
+                <span
+                  class="rate-text"
+                >
+                  EUR :
+                </span>
+                 
+                <span
+                  class="rate-text"
+                >
+                  30.255
+                </span>
+              </li>
+              <li
+                class="rate-item"
+              >
+                <span
+                  class="rate-text"
+                >
+                  RUR :
+                </span>
+                 
+                <span
+                  class="rate-text"
+                >
+                  0.32
+                </span>
+              </li>
+              <li
+                class="rate-item"
+              >
+                <span
+                  class="rate-text"
+                >
+                  BTC :
+                </span>
+                 
+                <span
+                  class="rate-text"
+                >
+                  883832.156
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
