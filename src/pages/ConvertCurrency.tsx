@@ -33,7 +33,6 @@ const ConvertCurrency = () => {
     }
   }, [dispatch, currencies]);
 
-
   const convertTextIntoResult = (text: string) => {
     const { fromCurrency, toCurrency, amount } = splitedText(text);
     const validate = validation(fromCurrency, toCurrency, amount, currencies);
@@ -49,8 +48,8 @@ const ConvertCurrency = () => {
     const indexFrom = getCurrencyIndex(currencies, fromCurrency);
     const indexTo = getCurrencyIndex(currencies, toCurrency);
 
-    const rateForm = currencies[indexFrom]?.buy;
-    const rateTo = currencies[indexTo]?.buy;
+    const rateForm = currencies[indexFrom]?.buy || 1;
+    const rateTo = currencies[indexTo]?.buy || 1;
 
     //calculation
     //for UAH
@@ -69,10 +68,11 @@ const ConvertCurrency = () => {
 
     if (fromCurrencyIsBTC || toCurrencyIsBTC) {
       //cause bts is only in usd currency
-      const usdRate = currencies.find((item) => item.ccy === "USD")?.buy || 1;
+      const usdRate = currencies.find((item) => item.ccy === "USD")!.buy;
+
       rate = fromCurrencyIsBTC
-        ? ((rateForm * usdRate) / (rateTo || 1)) * amount
-        : ((rateForm || 1) / usdRate / rateTo) * amount;
+        ? ((rateForm * usdRate) / rateTo) * amount
+        : (rateForm / usdRate / rateTo) * amount;
     }
 
     const hasBtc = fromCurrencyIsBTC || toCurrencyIsBTC;
@@ -85,7 +85,7 @@ const ConvertCurrency = () => {
       : currencies[indexTo]?.ccy;
 
     setResult(`${toFixed(sum)} ${resultValuete}`);
-  }
+  };
 
   const convert = useDebaunce(convertTextIntoResult, 500);
 

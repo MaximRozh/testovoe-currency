@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`check calculation Make ConvertCurrency snapshot 1`] = `
+exports[`ConvertCurrency snapshot Make ConvertCurrency snapshot 1`] = `
 <DocumentFragment>
   <div
     class="wrapper"
@@ -17,7 +17,7 @@ exports[`check calculation Make ConvertCurrency snapshot 1`] = `
           <a
             aria-current="page"
             class="active"
-            href="#/"
+            href="/"
           >
             <img
               alt="Logo"
@@ -34,7 +34,7 @@ exports[`check calculation Make ConvertCurrency snapshot 1`] = `
               <a
                 aria-current="page"
                 class="active-link"
-                href="#/"
+                href="/"
               >
                 Currency converter
               </a>
@@ -44,7 +44,7 @@ exports[`check calculation Make ConvertCurrency snapshot 1`] = `
             >
               <a
                 class=""
-                href="#/current-currency"
+                href="/current-currency"
               >
                 Exchange rates
               </a>

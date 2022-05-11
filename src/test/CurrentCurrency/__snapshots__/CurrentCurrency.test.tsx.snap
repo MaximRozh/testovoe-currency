@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
+exports[`CurrentCurrency snapshot Make CurrentCurrency snapshot 1`] = `
 <DocumentFragment>
   <div
     class="wrapper"
@@ -17,7 +17,7 @@ exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
           <a
             aria-current="page"
             class="active"
-            href="#/"
+            href="/"
           >
             <img
               alt="Logo"
@@ -34,7 +34,7 @@ exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
               <a
                 aria-current="page"
                 class="active-link"
-                href="#/"
+                href="/"
               >
                 Currency converter
               </a>
@@ -44,7 +44,7 @@ exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
             >
               <a
                 class=""
-                href="#/current-currency"
+                href="/current-currency"
               >
                 Exchange rates
               </a>
@@ -104,13 +104,13 @@ exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
                 <span
                   class="rate-text"
                 >
-                  USD :
+                  UAH :
                 </span>
                  
                 <span
                   class="rate-text"
                 >
-                  29.255
+                  0.034
                 </span>
               </li>
               <li
@@ -125,7 +125,7 @@ exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
                 <span
                   class="rate-text"
                 >
-                  30.255
+                  1.034
                 </span>
               </li>
               <li
@@ -140,7 +140,7 @@ exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
                 <span
                   class="rate-text"
                 >
-                  0.32
+                  0.011
                 </span>
               </li>
               <li
@@ -155,7 +155,7 @@ exports[`Check Current Rates Make ConvertCurrency snapshot 1`] = `
                 <span
                   class="rate-text"
                 >
-                  883832.156
+                  30211.423
                 </span>
               </li>
             </ul>
